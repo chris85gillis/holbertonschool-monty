@@ -6,7 +6,7 @@ int get_numbase_len(unsigned int num, unsigned int base);
 void fill_numbase_buff(unsigned int num, unsigned int base,
 	char *buff, int buff_size);
 
-/*
+/**
  * get_int - gets a character pointer to new string containing int
  * @num: number to convert to string
  *
@@ -35,7 +35,7 @@ char *get_int(int num)
 	return (ret);
 }
 
-/*
+/**
  * _abs - gets the absolute value of an integer
  * @i: integer to get absolute value of
  *
@@ -48,7 +48,7 @@ unsigned int _abs(int i)
 	return ((unsigned int)i);
 }
 
-/*
+/**
  * get_numbase_len - gets length of buffer needed for an unsigned int
  * @num: number to get length needed for
  * @base: base of number representation used by buffer
@@ -67,7 +67,7 @@ int get_numbase_len(unsigned int num, unsigned int base)
 	return (len);
 }
 
-/*
+/**
  * fill_numbase_buff - fills buffer with correct numbers up to base 36
  * @num: number to convert to string given base
  * @base: base of number used in conversion, only works up to base 36
