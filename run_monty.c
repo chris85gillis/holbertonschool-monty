@@ -15,7 +15,7 @@ void free_tokens(void)
 	free(op_toks);
 }
 
-/*
+/**
  * token_arr_len - Gets the length of current op_toks.
  *
  * Return: Length of current op_toks (as int).
@@ -28,7 +28,7 @@ unsigned int token_arr_len(void)
 		return (toks_len);
 }
 
-/*
+/**
  * is_empty_line - Checks if a line read from getline only contains delimiters.
  * @line: A pointer to the line.
  * @delims: A string of delimiter characters.
@@ -53,7 +53,7 @@ int is_empty_line(char *line, char *delims)
 	return (1);
 }
 
-/*
+/**
  * get_op_func - Matches an opcode with its corresponding function.
  * @opcode: The opcode to match.
  *
